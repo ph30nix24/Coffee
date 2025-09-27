@@ -5,7 +5,7 @@ const Hero = ({id}) => {
     <div className="w-full h-screen bg-[linear-gradient(340deg,rgba(10,10,10,1)_70%,rgba(20,20,20,1)_100%)] relative flex md:flex-row flex-col" id={id}>
       <a href="#about" className="top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute"><img src="./assets/img/scroll.png" className="size-36 hover:translate-y-2 smooth-transition" alt="" /></a>
       <div className="w-full md:w-1/2 md:h-full h-1/2 md:pl-60 md:pr-30 px-10 md:px-0">
-        <h1 className="capitalize md:text-5xl text-[1.5rem] pt-20 md:pt-40 leading-normal tracking-wide font-semibold font-heading text-white">
+        <h1 className="capitalize md:text-5xl text-[1.5rem] pt-20 md:pt-40 leading-normal tracking-wide font-semibold font-heading text-white" >
           choose your favorite coffee and enjoy
           <span className="text-yellow-500">.</span>
         </h1>

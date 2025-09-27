@@ -51,7 +51,8 @@ const Navbar = ({ onScrollChange, currentId }) => {
                   ? currentId === link ? 'text-black'
                   : 'text-primary' : currentId === link && '#' ? '!text-white ': 'text-primary hover:text-white'
               }  `}
-            > 
+            onClick={() => setIsClicked(false)}
+             > 
               {link}
             </a>
           </div>
