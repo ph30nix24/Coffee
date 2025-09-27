@@ -5,14 +5,14 @@ import SecondButton from './SecondButton';
 
 const BlogCards = ({set}) => {
   return (
-    <div className='w-1/2 h-fit group'>
+    <div className='w-full md:w-1/2 h-fit group cursor-pointer'>
         <div className='w-full h-[260px] rounded-2xl overflow-hidden relative'>
             <img src={set.img} className='w-full h-full object-cover object-center' alt="" />
             <SecondButton add={'absolute bottom-0 right-0 p-5 rounded-tl-lg text-black bg-white'}/>
         </div>
         <div className='w-full py-5'>
-            <h1 className='text-xl font-semibold font-heading capitalize'>{set.title}</h1>
-            <p className='text-sm font-heading pt-2 pb-6'>{set.para}</p>
+            <h1 className='text-[1.15rem] md:text-xl font-semibold font-heading capitalize'>{set.title}</h1>
+            <p className='text-[0.85rem] md:text-sm font-heading pt-2 pb-4 md:pb-6'>{set.para}</p>
             <div className='flex gap-5 items-center'>
                 <div className='flex-center gap-2 items-center'>
                     <BiComment className='text-base text-gray-700' />
